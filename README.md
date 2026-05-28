@@ -6,9 +6,9 @@ The platform enables organizations to upload operational ESG datasets, review ac
 
 ---
 
-# 🚀 Features
+## 🚀 Features
 
-## ✅ ESG Data Ingestion Pipeline
+### ✅ ESG Data Ingestion Pipeline
 
 Supports ingestion from multiple enterprise ESG sources:
 
@@ -20,7 +20,7 @@ Each dataset is normalized into a unified ESG activity model.
 
 ---
 
-## ✅ ESG Review Dashboard
+### ✅ ESG Review Dashboard
 
 Enterprise dashboard with:
 
@@ -34,7 +34,7 @@ Enterprise dashboard with:
 
 ---
 
-## ✅ Activity Governance Workflow
+### ✅ Activity Governance Workflow
 
 Manage ESG activities through:
 
@@ -46,7 +46,7 @@ Manage ESG activities through:
 
 ---
 
-## ✅ Search & Filtering
+### ✅ Search & Filtering
 
 Advanced dashboard filtering with:
 
@@ -57,7 +57,7 @@ Advanced dashboard filtering with:
 
 ---
 
-## ✅ KPI Analytics
+### ✅ KPI Analytics
 
 Real-time ESG metrics:
 
@@ -68,7 +68,7 @@ Real-time ESG metrics:
 
 ---
 
-# 🧠 ESG Workflow States
+## 🧠 ESG Workflow States
 
 | Status   | Description             |
 | -------- | ----------------------- |
@@ -78,16 +78,16 @@ Real-time ESG metrics:
 
 ---
 
-# ⚙️ Tech Stack
+## ⚙️ Tech Stack
 
-## Backend
+### Backend
 
 * Django
 * Django REST Framework
 * Python
 * SQLite
 
-## Frontend
+### Frontend
 
 * React.js
 * Vite
@@ -96,7 +96,7 @@ Real-time ESG metrics:
 
 ---
 
-# 🎨 UI Features
+## 🎨 UI Features
 
 * Modern Enterprise Dashboard
 * Dark Professional Theme
@@ -108,7 +108,7 @@ Real-time ESG metrics:
 
 ---
 
-# 📁 Project Structure
+## 📁 Project Structure
 
 ```txt
 breathe-esg-assignment/
@@ -132,7 +132,7 @@ breathe-esg-assignment/
 
 ---
 
-# 🔐 ESG Governance Modules
+## 🔐 ESG Governance Modules
 
 | Module               | Purpose                    |
 | -------------------- | -------------------------- |
@@ -145,9 +145,9 @@ breathe-esg-assignment/
 
 ---
 
-# ⚡ Installation
+## ⚡ Installation
 
-## 1️⃣ Clone Repository
+### 1️⃣ Clone Repository
 
 ```bash
 git clone https://github.com/Ayushjssj/BREATHE-ESG-DASHBOARD.git
@@ -155,7 +155,7 @@ git clone https://github.com/Ayushjssj/BREATHE-ESG-DASHBOARD.git
 
 ---
 
-## 2️⃣ Navigate Into Project
+### 2️⃣ Navigate Into Project
 
 ```bash
 cd breathe-esg-assignment
@@ -163,9 +163,9 @@ cd breathe-esg-assignment
 
 ---
 
-# ⚙️ Backend Setup
+## ⚙️ Backend Setup
 
-## Create Virtual Environment
+### Create Virtual Environment
 
 ```bash
 cd backend
@@ -174,9 +174,9 @@ python -m venv venv
 
 ---
 
-## Activate Virtual Environment
+### Activate Virtual Environment
 
-### Windows
+#### Windows
 
 ```bash
 venv\Scripts\activate
@@ -184,7 +184,7 @@ venv\Scripts\activate
 
 ---
 
-## Install Dependencies
+#### Install Dependencies
 
 ```bash
 pip install django djangorestframework django-cors-headers pandas
@@ -192,7 +192,7 @@ pip install django djangorestframework django-cors-headers pandas
 
 ---
 
-## Run Migrations
+#### Run Migrations
 
 ```bash
 python manage.py migrate
@@ -200,7 +200,7 @@ python manage.py migrate
 
 ---
 
-## Create Superuser
+#### Create Superuser
 
 ```bash
 python manage.py createsuperuser
@@ -208,7 +208,7 @@ python manage.py createsuperuser
 
 ---
 
-## Start Backend Server
+#### Start Backend Server
 
 ```bash
 python manage.py runserver
@@ -222,9 +222,9 @@ http://127.0.0.1:8000
 
 ---
 
-# ▶️ Frontend Setup
+## ▶️ Frontend Setup
 
-## Install Frontend Dependencies
+#### Install Frontend Dependencies
 
 ```bash
 cd frontend
@@ -233,7 +233,7 @@ npm install
 
 ---
 
-## Install Axios
+#### Install Axios
 
 ```bash
 npm install axios
@@ -241,7 +241,7 @@ npm install axios
 
 ---
 
-## Start Frontend
+#### Start Frontend
 
 ```bash
 npm run dev
@@ -255,9 +255,9 @@ http://localhost:5173
 
 ---
 
-# 📥 Sample CSV Upload
+## 📥 Sample CSV Upload
 
-## SAP Procurement Upload
+### SAP Procurement Upload
 
 ```bash
 curl.exe -X POST "http://127.0.0.1:8000/api/upload/" ^
@@ -268,7 +268,7 @@ curl.exe -X POST "http://127.0.0.1:8000/api/upload/" ^
 
 ---
 
-## Utility Upload
+### Utility Upload
 
 ```bash
 curl.exe -X POST "http://127.0.0.1:8000/api/upload/" ^
@@ -279,7 +279,7 @@ curl.exe -X POST "http://127.0.0.1:8000/api/upload/" ^
 
 ---
 
-## Travel Upload
+### Travel Upload
 
 ```bash
 curl.exe -X POST "http://127.0.0.1:8000/api/upload/" ^
@@ -290,7 +290,7 @@ curl.exe -X POST "http://127.0.0.1:8000/api/upload/" ^
 
 ---
 
-# 📡 API Endpoints
+## 📡 API Endpoints
 
 | Method | Endpoint                        | Description          |
 | ------ | ------------------------------- | -------------------- |
@@ -301,7 +301,7 @@ curl.exe -X POST "http://127.0.0.1:8000/api/upload/" ^
 
 ---
 
-# 🌐 Main Dashboard Features
+## 🌐 Main Dashboard Features
 
 | Feature           | Description               |
 | ----------------- | ------------------------- |
@@ -314,7 +314,7 @@ curl.exe -X POST "http://127.0.0.1:8000/api/upload/" ^
 
 ---
 
-# 🧠 Future Improvements
+## 🧠 Future Improvements
 
 * Multi-Tenant ESG Support
 * Authentication & RBAC
@@ -326,22 +326,22 @@ curl.exe -X POST "http://127.0.0.1:8000/api/upload/" ^
 
 ---
 
-# 👨‍💻 Built By
+## 👨‍💻 Built By
 
-## Ayush Pandey
+### Ayush Pandey
 
 * Agentic AI Engineer
 * AI & ESG Platform Developer
 * Machine Learning Enthusiast
 
-### Connect With Me
+#### Connect With Me
 
 * GitHub: https://github.com/Ayushjssj
 * Email: [payush1502@gmail.com](mailto:payush1502@gmail.com)
 
 ---
 
-# 📜 License
+## 📜 License
 
 This project was developed as part of the **Breathe ESG Tech Intern Assignment**.
 
@@ -349,7 +349,7 @@ Unauthorized copying, redistribution, or commercial usage of this software witho
 
 ---
 
-# ⭐ Support
+## ⭐ Support
 
 If you like this project:
 
