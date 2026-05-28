@@ -1,4 +1,4 @@
-# 🌿 Breathe ESG Dashboard — Enterprise ESG Review Platform
+# 🌿Breathe ESG Dashboard — Enterprise ESG Review Platform
 
 Breathe ESG Dashboard is a production-grade ESG data ingestion and governance platform designed to process, normalize, review, and monitor sustainability activities across enterprise data sources.
 
