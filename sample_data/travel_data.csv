@@ -1,0 +1,4 @@
+activity_type,quantity,unit,period_start,period_end,facility_code,reference,description
+Flight Travel,1200,km,2025-01-10,2025-01-10,PLT001,TRV1001,Delhi to Mumbai flight
+Hotel Stay,3,night,2025-01-11,2025-01-14,PLT001,TRV1002,Business hotel stay
+Taxi Travel,35,km,2025-01-15,2025-01-15,PLT001,TRV1003,Airport taxi

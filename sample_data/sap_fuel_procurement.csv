@@ -1,0 +1,4 @@
+activity_type,quantity,unit,period_start,period_end,facility_code,reference,description
+Diesel Fuel,5000,litre,2025-01-01,2025-01-31,PLT001,SAP1001,Diesel for generators
+Natural Gas,12000,m3,2025-01-01,2025-01-31,PLT001,SAP1002,Boiler gas usage
+Steel Procurement,2500,kg,2025-01-01,2025-01-31,PLT001,SAP1003,Raw material procurement
